@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(15, 33, 61);
+    color: #dae2e1;
+}
+.titulo{
+    text-align:center;
+    padding: 2%; 
+}
+.tabelas{
+margin: auto;
+width: 50%;
+}
+
