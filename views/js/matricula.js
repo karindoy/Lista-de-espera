@@ -49,7 +49,7 @@ function criarTabelaInscritos() {
           var tipo = document.createAttribute("type");
           tipo.value="button";
           var valor = document.createAttribute("value");
-          valor.value="betão";
+          valor.value="botão";
           btn.setAttributeNode(valor);
           btn.setAttributeNode(tipo);
           td.appendChild(btn);
@@ -118,7 +118,7 @@ function criarTabelaInscritos() {
           var tipo = document.createAttribute("type");
           tipo.value="button";
           var valor = document.createAttribute("value");
-          valor.value="betão";
+          valor.value="botão";
           btn.setAttributeNode(valor);
           btn.setAttributeNode(tipo);
           td.appendChild(btn);
