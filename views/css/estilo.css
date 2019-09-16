@@ -1,3 +1,8 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
 body{
     background-image: url("../img/IPGG_predio.png");
     color: #0e0f0f;
@@ -56,4 +61,20 @@ form{
     top: 1px;
     left:1px;
 }
+
+#menu{
+    padding:0px;
+    margin:0px;
+    background-color:rgb(35, 136, 167);
+    list-style:none;
+    color: #e8fcff;
+    font-size: 1.5vw;
+}
+
+#menu li{
+    padding: 2px 10px;
+    display: inline-block;
+}
+
+
 
