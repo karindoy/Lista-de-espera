@@ -46,17 +46,52 @@ echo '<!DOCTYPE html>
 			<h3>Lista de inscritos</h2>
 				<input type="text" placeholder="pesquise aqui" name="pesquisa_inscrito" />
 		</div>
+		<table class="tabelas"> 
+				<tbody>
+					<tr>
+						<th>posição</th>
+						<th>nome</th>
+						<th>telefone 1</th>
+						<th>telefone 2</th>
+						<th>data incrição</th>
+						<th>status</th>
+					</tr>
 
-		<div class="tabela">
-			<script>criarTabelaInscritos()</script>
+
+		'?>
+		<?php
+		function criarTblInscritos(){
+			$linha=1;
+			$col=1;
+			for($linha=1;$linha<=20;$linha++){	
+				print 
+				'<tr>
+					<td>'.$col.'</td>
+					<td>pessoa'.$col.'</td>
+					<td>tel 1 -'.$col.'</td>
+					<td>tel 2 -'.$col.'</td>
+					<td>'.$col.'/05/2019</td>
+					<td>aguardando</td>
+				</tr>';
+				$col=$col+1;
+			}
+
+		};
+		criarTblInscritos();
+
+		?>
+		<?php
+echo
+	'</tbody>
+	</table>
+
 		</div>
-	</div>
 
-	<footer>
-		<h5>Instituto Paulista de Geriatria e Gerontologia (IPGG) José Ermírio de Moraes</h5>
-	</footer>
+		<footer>
+			<h5>Instituto Paulista de Geriatria e Gerontologia (IPGG) José Ermírio de Moraes</h5>
+		</footer>
 
-</body>
+	</body>
 
 </html>'
 ?>

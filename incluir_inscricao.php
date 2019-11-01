@@ -50,7 +50,7 @@ echo '<!DOCTYPE html>
     <h1>Cadastrar na lista de espera</h1>
 
     <form action="processa.php" method="POST">
-        <label>Data da inscricao </label>
+        <label>Data da inscrição </label>
         <input type="date" name="data_incricao" />
         <br>
 

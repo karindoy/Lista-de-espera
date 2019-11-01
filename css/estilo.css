@@ -40,6 +40,10 @@ footer{
 }
 form{
     height: 25vw;
+    padding: 1vw;
+}
+form *{
+    margin: 0.5vw;
 }
 
 .botao{

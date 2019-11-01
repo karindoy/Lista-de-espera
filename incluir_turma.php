@@ -45,7 +45,7 @@
     <h1>Cadastrar Turma</h1>
     <div>
         <form action="processa.php" method="POST">
-            <label>Data de inicio</label>
+            <label>Data de início</label>
             <input type="date" name="data-incricao" />
             <br>
 
@@ -53,7 +53,7 @@
             <input type="date" name="data-incricao" />
             <br>
 
-            <label>dia da semana: </label>
+            <label>Dia da semana: </label>
             <select name="semana1">
                 <option value="1">Segunda</option>
                 <option value="2">Terça</option>
@@ -62,7 +62,7 @@
                 <option value="3">Sexta</option>
             </select>
 
-            <label>dia da semana: </label>
+            <label>Dia da semana: </label>
             <select name="semana2">
                 <option value="1">Segunda</option>
                 <option value="2">Terça</option>
@@ -72,11 +72,11 @@
             </select>
             <br>
 
-            <label>horario de inicio</label>
+            <label>horario de início</label>
             <input type="text" placeholder="Digite aqui" name="texto" />
             <br>
 
-            <label>horario de fim</label>
+            <label>Horario de fim</label>
             <input type="text" placeholder="Digite aqui" name="texto" />
             <br>
 

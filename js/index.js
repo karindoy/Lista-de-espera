@@ -27,7 +27,7 @@ function verificarBD(email, passwd){
     var responsavel ="admin@gmail.com"; //email de responsavel de teste
 
     if (email == responsavel){
-        document.location.href = "./listar_inscricao.html"; 
+        document.location.href = "./listar_inscricao.php"; 
     }
 
 }
