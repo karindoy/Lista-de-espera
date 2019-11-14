@@ -1,7 +1,7 @@
 
-<?php 
-$dia=array('14/10/2019', '24/10/2019');
-$situacao=array('cancelada', 'concluido');
+<?php
+$dia = array('14/10/2019', '24/10/2019');
+$situacao = array('cancelada', 'concluido');
 echo '<!DOCTYPE html>
 <html lang="pt-br">
 
@@ -81,8 +81,22 @@ echo '<!DOCTYPE html>
             <label>Telefone</label>
             <input type="text" placeholder="2222-3333" name="tel" />
             <br>
-        </div>
+            
+        <label>Telefone</label>
+        <label>Tipo</label>
+        <select name="tipotel">
+            <option value="Residencia">Residencia</option>
+            <option value="Celular">Celular</option>
+        </select>
+        <br>
 
+        <label>DDD</label>
+        <input type="text" placeholder="11" name="ddd" />
+
+        <label>Telefone</label>
+        <input type="text" placeholder="2222-3333" name="tel" />
+        <br>
+        </div>
 
         <label>Escolaridade</label>
         <select name="escolaridade">
@@ -110,12 +124,12 @@ echo '<!DOCTYPE html>
         </tr>
 
         <tr>
-            <td>'.$dia[0].'</td>
-            <td>'.$situacao[0].'</td>
+            <td>' .$dia[0] . '</td>
+            <td>' . $situacao[0] . '</td>
         </tr>
         <tr>
-            <td>'.$dia[1].'</td>
-            <td>'.$situacao[1].'</td>
+            <td>' . $dia[1] . '</td>
+            <td>' . $situacao[1] . '</td>
         </tr>
     </table>
     <footer>

@@ -1,4 +1,4 @@
-<?php echo 
+<?php echo
 '<!DOCTYPE html>
 <html lang="pt-br">
 
@@ -46,42 +46,42 @@
     <div>
         <form action="processa.php" method="POST">
             <label>Data de início</label>
-            <input type="date" name="data-incricao" />
+            <input type="date" name="data-inicio" />
             <br>
 
             <label>Data de fim</label>
-            <input type="date" name="data-incricao" />
+            <input type="date" name="data-fim" />
             <br>
 
             <label>Dia da semana: </label>
             <select name="semana1">
-                <option value="1">Segunda</option>
-                <option value="2">Terça</option>
-                <option value="3">Quarta</option>
-                <option value="4">Quinta</option>
-                <option value="3">Sexta</option>
+                <option value="segunda1">Segunda</option>
+                <option value="terca1">Terça</option>
+                <option value="quarta1">Quarta</option>
+                <option value="quinta1">Quinta</option>
+                <option value="sexta1">Sexta</option>
             </select>
 
             <label>Dia da semana: </label>
             <select name="semana2">
-                <option value="1">Segunda</option>
-                <option value="2">Terça</option>
-                <option value="3">Quarta</option>
-                <option value="4">Quinta</option>
-                <option value="3">Sexta</option>
+                <option value="segunda2">Segunda</option>
+                <option value="terca2">Terça</option>
+                <option value="quarta2">Quarta</option>
+                <option value="quinta2">Quinta</option>
+                <option value="sexta2">Sexta</option>
             </select>
             <br>
 
             <label>horario de início</label>
-            <input type="text" placeholder="Digite aqui" name="texto" />
+            <input type="text" placeholder="Digite aqui" name="hora-inicio" />
             <br>
 
             <label>Horario de fim</label>
-            <input type="text" placeholder="Digite aqui" name="texto" />
+            <input type="text" placeholder="Digite aqui" name="hora-fim" />
             <br>
 
             <label>Instrutor</label>
-            <input type="text" placeholder="Digite aqui" name="texto" />
+            <input type="text" placeholder="Digite aqui" name="instrutor" />
             <br>
     </div>
 
